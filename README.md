@@ -1,3 +1,4 @@
 Backbone-Keynote
 ================
-http://menu-flow.com/labs/backbone-keynote/
+- Keynote:http://menu-flow.com/labs/backbone-keynote
+- Exercise:http://menu-flow.com/labs/backbone-demo
