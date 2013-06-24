@@ -1,0 +1,21 @@
+{
+    "name": "Deployer",
+    "preferGlobal": true,
+    "version": "0.3.0",
+    "author": "alex.zarges <support@online.de>",
+    "description": "A simple apllication to compile and minify javascript and css files",
+    "contributors": [
+        {
+            "name": "Alexander Zarges",
+            "email": "alex.zarges@online.de"
+        }
+    ],
+
+    "dependencies" : {
+        "node-sass"   :  "*",
+        "fs-extra" :  "*",
+        "express" :  "*",
+        "cheerio" :  "*",
+        "clean-css" : "*"
+    }
+}
