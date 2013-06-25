@@ -1,0 +1,19 @@
+<a href="#" class="close-js close-details btn-cta">✖</a>
+<h1 class="cutted" title="<%= title %>"><%= title %></h1>
+<div class="video-container">
+    <object type="application/x-shockwave-flash" style="width:382px; height:215px" data="http://www.youtube.com/v/<%= id %>?version=3&hd=1&iv_load_policy=3&rel=0&showinfo=0&showsearch=0">
+        <param name="wmode" value="opaque" />
+        <param name="allowFullScreen" value="true" />
+        <param name="movie" value="http://www.youtube.com/v/<%= id %>" />
+    </object>
+</div>
+
+<div class="video-infos">
+	<% if (favorite) { %>
+    	<a href="#" class="remove-js fav-btn cutted btn-cta"><span>★</span> Von Favoriten entfernen</a>
+    <% } else {%>
+    	<a href="#" class="save-js fav-btn cutted btn-cta"> <span>☆</span> Zu Favoriten hinzufügen</a>
+    <% } %>
+</div>
+
+
